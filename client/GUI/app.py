@@ -5,7 +5,7 @@ except:
 
 class App():
     def __init__(self, ROOT) -> None:
-        ROOT.geometry('750x400')
+        ROOT.geometry('750x350')
         ROOT.title('Main Menu')
         ROOT['background'] = COLOUR_BACKGROUND
         ROOT.resizable(False, False)
